@@ -4,7 +4,7 @@ import React from 'react'
 
 function App() {
   return (
-    <button type="button" name="show_more">Показать еще</button>
+    <button type="button" name="show_more">КНОПКА</button>
   )
 }
 
