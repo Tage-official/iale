@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -67,4 +67,62 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.wrapper{
+  /* Rectangle 1 */
+
+box-sizing: border-box;
+max-width: 1080px;
+max-height: 1920px;
+margin: 0px;
+background: '/img/intro.jpg';
+border: 1px solid #000000;
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  img{
+    margin:20px;
+    }
+  }
+.container{
+  display:flexbox;
+  width:100%;
+  max-width: 1200;
+  margin: 0px;
+}
+
+.right{
+  display:flex;
+  a{
+    margin: 180px;
+  }
+}
+
+.card{
+  display:flex;
+  justify-content: flex-start;
+
+  img{
+  
+  }
+}
+
+.nav{
+  margin:5px;
+  font-size:18px;
+  font-family:'Courier New', Courier, monospace
+}
+
+.nav_link{
+  color:#646cff;
+  transition:0.5s;
+}
+.nav_link:hover{
+  color:red;
+  box-shadow:#646cff;
 }
