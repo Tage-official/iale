@@ -74,7 +74,7 @@ button:focus-visible {
 
 box-sizing: border-box;
 max-width: 1080px;
-max-height: 1920px;
+max-height: 1920zpx;
 margin: 0px;
 background: '/img/intro.jpg';
 border: 1px solid #000000;
@@ -85,26 +85,34 @@ header{
   display: flex;
   justify-content: space-between;
   margin: 0px;
+  top:0;
+  z-index: 50;
   img{
     margin:20px;
     }
   }
 .container{
-  display:flexbox;
+  display:flex;
   width:100%;
   max-width: 1200;
-  margin: 0px;
+  margin: 15px;
+  h3{
+    color:cornflowerblue
+  }
+  span{
+    color:#000000
+  }
 }
 
 .right{
   display:flex;
   a{
-    margin: 180px;
+    margin: 5px;
   }
 }
 
 .card{
-  display:flex;
+  display:flexbox;
   justify-content: flex-start;
 
   img{
@@ -113,7 +121,7 @@ header{
 }
 
 .nav{
-  margin:5px;
+  margin:18px;
   font-size:18px;
   font-family:'Courier New', Courier, monospace
 }
