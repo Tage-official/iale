@@ -4,7 +4,7 @@ import 'react-fs'
 
 function App() {
   return (
-    <button type="button" name="show_more">КНОПКА</button>
+    <button type="button" name="show_more">BUTTON</button>
   )
 }
 

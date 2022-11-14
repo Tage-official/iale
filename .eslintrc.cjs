@@ -4,6 +4,7 @@ module.exports = {
         "es2021": true
     },
     "extends": [
+        "airbnb:recommended",
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended"
@@ -16,6 +17,9 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
+        "jsx-a11y",
+        "import",
+        "react-hooks",
         "react",
         "@typescript-eslint"
     ],
