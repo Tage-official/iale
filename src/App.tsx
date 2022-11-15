@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import './App.css' 
-import 'react-fs'
 
-function App() {
+const App: React.FC = () => {
   return (
     <button type="button" name="show_more">BUTTON</button>
   )
