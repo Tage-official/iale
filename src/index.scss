@@ -67,70 +67,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-.wrapper{
-  /* Rectangle 1 */
-
-box-sizing: border-box;
-max-width: 1080px;
-max-height: 1920zpx;
-margin: 0px;
-background: '/img/intro.jpg';
-border: 1px solid #000000;
-
-}
-
-header{
-  display: flex;
-  justify-content: space-between;
-  margin: 0px;
-  top:0;
-  z-index: 50;
-  img{
-    margin:20px;
-    }
+  button:active {
+    color:#646cff
   }
-.container{
-  display:flex;
-  width:100%;
-  max-width: 1200;
-  margin: 15px;
-  h3{
-    color:cornflowerblue
-  }
-  span{
-    color:#000000
-  }
-}
-
-.right{
-  display:flex;
-  a{
-    margin: 5px;
-  }
-}
-
-.card{
-  display:flexbox;
-  justify-content: flex-start;
-
-  img{
-  
-  }
-}
-
-.nav{
-  margin:18px;
-  font-size:18px;
-  font-family:'Courier New', Courier, monospace
-}
-
-.nav_link{
-  color:#646cff;
-  transition:0.5s;
-}
-.nav_link:hover{
-  color:red;
-  box-shadow:#646cff;
 }

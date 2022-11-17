@@ -6,8 +6,7 @@ module.exports = {
     "extends": [
         "eslint-config-airbnb",
         "airbnb",
-        "eslint:recommended",
-        "plugin:react/recommended",
+        "airbnb/hooks",
         "plugin:@typescript-eslint/recommended"
     ],
     "overrides": [
