@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import './App.css' 
-
-@import "~bootstrap/scss/bootstrap";
-
-/* The following line can be included in your src/index.js or App.js file */
-
+import { useState } from 'react';
+import { Button } from 'react-bootstrap';
 import './App.scss';
 
-const App: React.FC = () => {
-  return (
-    <button type="button" name="show_more">BUTTON</button>
-  )
-}
+const App: React.FC = () => (
+  <button type="button" className="btn btn-primary">
+    BUTTON
+  </button>
+);
 
-export default App
+export default App;
