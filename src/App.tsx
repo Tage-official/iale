@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Button } from 'bootstrap';
 import './App.scss';
 
 const App: React.FC = () => (
@@ -14,7 +15,7 @@ const App: React.FC = () => (
         </a>
       </div>
       <ul className="right">
-        <li className="nav"><a className="nav_link" href="">ПОПУЛЯРНОЕ</a></li>
+        <li className="nav"><a className="nav_link" href="">POPULAR</a></li>
         <li className="nav"><a className="nav_link" href=""><img height="30" width="30" src="/src/assets/calendar.svg" /></a></li>
         <li className="nav"><a className="nav_link" href=""><img height="30" width="30" src="/src/assets/heart.svg" /></a></li>
       </ul>
