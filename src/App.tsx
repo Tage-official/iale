@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import './App.css'
-import React from 'react'
+import { useState } from 'react';
+import { Button } from 'react-bootstrap';
+import './App.scss';
 
-function App() {
-  return (
-    <button type="button" name="show_more">Показать еще</button>
-  )
-}
+const App: React.FC = () => (
+  <Button variant="primary">if you wanna say that artem looks like chicken, click on me</Button>
+);
 
-export default App
+export default App;
