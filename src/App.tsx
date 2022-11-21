@@ -3,9 +3,7 @@ import { Button } from 'react-bootstrap';
 import './App.scss';
 
 const App: React.FC = () => (
-  <button type="button" className="btn btn-primary">
-    BUTTON
-  </button>
+  <Button variant="primary">if you wanna say that artem looks like chicken, click on me</Button>
 );
 
 export default App;
