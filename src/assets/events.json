@@ -1,0 +1,52 @@
+[
+    {
+      "id": 0,
+      "title":"Russian! National!",
+      "owner":"by Marina Devyatova",
+      "image":"src/assets/marina.png",
+      "data":"December 12 at the Hrodno Regional Philharmonic",
+      "type":"Concert"
+    },
+    {
+        "id": 1,
+        "title":"Saxophone Colours",
+        "owner":"by group SAXAS",
+        "image":"src/assets/saxas.png",
+        "data":"December 15 at the concert Hall Hrodno",
+        "type":"Concert"
+    },
+    {
+        "id": 2,
+        "title":"JEKA",
+        "owner":"by Evgeny Grigoriev",
+        "image":"src/assets/jeka.png",
+        "data":"December 16 at the Hrodno Regional Philharmonic",
+        "type":"Concert"
+    },
+    {
+        "id": 3,
+        "title":"I'll be home for Christmas!",
+        "owner":"by Vocal Ensemble Chapel Jam",
+        "image":"src/assets/ny.png",
+        "data":"December 27 at the Kirche",
+        "type":"Concert"
+    },
+    {
+        "id": 8,
+        "title":"Cheburashka",
+        "owner":"by creators of the movie Last Hero",
+        "image":"src/assets/cheburashka.jpg",
+        "data":"February 12 in the cinema Mooon",
+        "type":"Cinema",
+        "adress":"https://silverscreen.by/afisha/#times=cheburashka-2616"
+    },
+    {
+        "id": 5,
+        "title":"Advent Music",
+        "owner":"by Symphony Orchestra",
+        "image":"src/assets/musica.png",
+        "data":"December 16 at the Kirche",
+        "type":"Concert"
+    }
+
+]

@@ -1,0 +1,19 @@
+.root{
+    border:2px;
+    padding: 3px;
+    width:200px;
+    border-radius:5px;
+}
+
+.clear{
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    position:absolute;
+    left:174px;
+    top:15px;
+}
+.clear:hover{
+    opacity: 1;
+    cursor:pointer;
+}

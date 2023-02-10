@@ -1,0 +1,28 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+body {
+  font: 100%;
+  color: #f1f1f1;
+}
+
+.aactive {
+  background-color: #f1f1f1;
+}
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+
+    }
+    .div1 { grid-area: 3 / 5 / NaN / NaN; }
+    
+.headline{
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.header-button{
+  cursor:pointer;
+}

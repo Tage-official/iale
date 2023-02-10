@@ -1,11 +1,12 @@
-function Categories() {
+import React from 'react';
+
+function Categories({ value, onClickCategory }) {
+  const categories = ['All', 'Concerts', 'Cinema', 'Performances', 'Exhibitions', 'Parties'];
   return (
-    <ul className="text-dark text-center">
-      <li><a href="#">Concerts</a></li>
-      <li><a href="#">Cinema</a></li>
-      <li><a href="#">Performances</a></li>
-      <li><a href="#">Exhibitions</a></li>
-      <li><a href="#">Partys</a></li>
+    <ul className="text-dark text-center list-group">
+      {categories.map((categoryName, i) => (
+        <li key={i} onClick={() => onClickCategory(i)} className={value === i ? 'aactive' : ''}><a href="#">{categoryName}</a></li>
+      ))}
     </ul>
   );
 }
